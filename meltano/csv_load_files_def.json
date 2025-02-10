@@ -1,0 +1,94 @@
+[
+    {
+      "entity": "order_details",
+      "path": "csv/(data_path)/order_details.csv",
+      "keys": [
+        "order_id",
+        "product_id"
+      ]
+    },
+    {
+      "entity": "public_categories",
+      "path": "postgres/(data_path)/public-categories.csv",
+      "keys": [
+        "category_id"
+      ]
+    },
+    {
+      "entity": "public-customers",
+      "path": "postgres/(data_path)/public-customers.csv",
+      "keys": [
+        "customer_id"
+      ]
+    },
+    {
+      "entity": "public-employee_territories",
+      "path": "postgres/(data_path)/public-employee_territories.csv",
+      "keys": [
+        "employee_id",
+        "territory_id"
+      ]
+    },
+    {
+      "entity": "public-employees",
+      "path": "postgres/(data_path)/public-employees.csv",
+      "keys": [
+        "employee_id"
+      ]
+    },
+    {
+      "entity": "public-orders",
+      "path": "postgres/(data_path)/public-orders.csv",
+      "keys": [
+        "order_id",
+        "customer_id",
+        "employee_id"
+      ]
+    },
+    {
+      "entity": "public-products",
+      "path": "postgres/(data_path)/public-products.csv",
+      "keys": [
+        "product_id",
+        "supplier_id",
+        "category_id"
+      ]
+    },
+    {
+      "entity": "public-region",
+      "path": "postgres/(data_path)/public-region.csv",
+      "keys": [
+        "region_id"
+      ]
+    },
+    {
+      "entity": "public-shippers",
+      "path": "postgres/(data_path)/public-shippers.csv",
+      "keys": [
+        "shipper_id"
+      ]
+    },
+    {
+      "entity": "public-suppliers",
+      "path": "postgres/(data_path)/public-suppliers.csv",
+      "keys": [
+        "supplier_id"
+      ]
+    },
+    {
+      "entity": "public-territories",
+      "path": "postgres/(data_path)/public-territories.csv",
+      "keys": [
+        "territory_id",
+        "region_id"
+      ]
+    },
+    {
+      "entity": "public-us_states",
+      "path": "postgres/(data_path)/public-us_states.csv",
+      "keys": [
+        "state_id"
+      ]
+    }
+  ]
+  
